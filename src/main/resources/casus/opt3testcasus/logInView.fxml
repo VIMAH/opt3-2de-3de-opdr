@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="casus.opt3testcasus.LogInController">
+    <children>
+        <VBox alignment="TOP_CENTER" layoutX="218.0" layoutY="14.0" prefHeight="82.0" prefWidth="164.0" AnchorPane.leftAnchor="218.0" AnchorPane.rightAnchor="218.0">
+            <children>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rent-a-Thing">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The thing you wanna rent" textAlignment="CENTER">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Text>
+            </children>
+        </VBox>
+        <VBox alignment="TOP_CENTER" layoutX="219.0" layoutY="104.0" prefHeight="200.0" prefWidth="161.0" AnchorPane.bottomAnchor="96.0" AnchorPane.leftAnchor="219.0" AnchorPane.rightAnchor="219.0" AnchorPane.topAnchor="104.0">
+            <children>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gebruikersnaam" textAlignment="CENTER" />
+                <TextField fx:id="idField" translateY="16.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wachtwoord" textAlignment="CENTER" translateY="37.0" />
+                <PasswordField fx:id="passwordField" onKeyReleased="#OnPasswordKeyReleased" translateY="47.0" />
+                <Button fx:id="logInButton" mnemonicParsing="false" onAction="#LogIn" prefHeight="26.0" prefWidth="82.0" text="Login" translateY="75.0" />
+                <Text fx:id="warningText" strokeType="OUTSIDE" strokeWidth="0.0" translateY="100.0" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

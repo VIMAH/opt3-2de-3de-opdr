@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="casus.opt3testcasus.ProductenController">
+    <children>
+        <Button layoutX="32.0" layoutY="29.0" mnemonicParsing="false" onAction="#Back" prefHeight="27.0" prefWidth="70.0" text="Back" />
+        <ScrollPane layoutX="34.0" layoutY="70.0" prefHeight="298.0" prefWidth="530.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="502.0" prefWidth="783.0">
+                    <children>
+                        <Text layoutX="75.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="a1" wrappingWidth="412.13673400878906" />
+                        <Text layoutX="75.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="412.13673400878906" />
+                        <Text layoutX="75.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A3" wrappingWidth="451.13673400878906" />
+                    </children></AnchorPane>
+            </content>
+        </ScrollPane>
+        <Text layoutX="180.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VrachtAuto's" textAlignment="CENTER" wrappingWidth="239.13673400878906" />
+    </children>
+</AnchorPane>

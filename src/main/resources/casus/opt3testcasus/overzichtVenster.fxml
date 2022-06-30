@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="casus.opt3testcasus.OverzichtController">
+   <children>
+      <ScrollPane layoutX="31.0" layoutY="72.0" prefHeight="274.0" prefWidth="538.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="472.0" prefWidth="378.0">
+               <children>
+                  <Text layoutX="304.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Snelle Auto" />
+                  <Text layoutX="302.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Snelle Auto" wrappingWidth="70.4453125" />
+                  <Text layoutX="302.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Snelle Auto" wrappingWidth="73.4453125" />
+                  <Text layoutX="301.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="kan veel in &amp; snel" wrappingWidth="98.580078125" />
+                  <Text layoutX="301.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sterk als Tank" />
+                  <Text layoutX="301.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Frans als Croissant" />
+                  <Text layoutX="302.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Te dure boor" />
+                  <Text layoutX="301.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Te dure boor" />
+                  <Text layoutX="301.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nike AirBoor" />
+                  <Button layoutX="111.0" layoutY="39.0" mnemonicParsing="false" onMouseClicked="#MercedesHuur" prefHeight="26.0" prefWidth="149.0" text="GLE 63s" />
+                  <Button layoutX="110.0" layoutY="142.0" mnemonicParsing="false" onMouseClicked="#BmwHuur" prefHeight="26.0" prefWidth="150.0" text="M5" />
+                  <Button layoutX="111.0" layoutY="89.0" mnemonicParsing="false" onMouseClicked="#AudiHuur" prefHeight="26.0" prefWidth="149.0" text="RS3" />
+                  <Button layoutX="110.0" layoutY="191.0" mnemonicParsing="false" onMouseClicked="#MercedesVrachtHuur" prefHeight="26.0" prefWidth="150.0" text="Vrachtwagen Mercedes" />
+                  <Button layoutX="109.0" layoutY="235.0" mnemonicParsing="false" onMouseClicked="#VolvoHuur" prefHeight="26.0" prefWidth="150.0" text="Vrachtwagen Volvo" />
+                  <Button layoutX="110.0" layoutY="282.0" mnemonicParsing="false" onMouseClicked="#RenaultHuur" prefHeight="26.0" prefWidth="150.0" text="Vrachtwagen Renault" />
+                  <Button layoutX="110.0" layoutY="319.0" mnemonicParsing="false" onMouseClicked="#LouisVuittonHuur" prefHeight="26.0" prefWidth="150.0" text="Boor LV" />
+                  <Button layoutX="109.0" layoutY="362.0" mnemonicParsing="false" onMouseClicked="#DiorHuur" prefHeight="26.0" prefWidth="150.0" text="Boor Dior" />
+                  <Button layoutX="109.0" layoutY="407.0" mnemonicParsing="false" onMouseClicked="#NikeHuur" prefHeight="26.0" prefWidth="150.0" text="Boor Nike" />
+                  <Button layoutX="24.0" layoutY="26.0" mnemonicParsing="false" onAction="#Back" onMouseClicked="#Back" text="Back" />
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
